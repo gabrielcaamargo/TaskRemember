@@ -5,9 +5,11 @@ export const TaskBody = styled.div`
   margin-top: 24px;
   padding: 8px;
   border-radius: 8px;
+  color: #222;
 
   h2{
-    font-size: 22px;
+    font-size: 20px;
+
   }
 
   & + & {
