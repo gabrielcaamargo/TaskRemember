@@ -4,6 +4,7 @@ import { Container } from './styles';
 import defaultColors from '../../assets/styles/defaultColors';
 
 import Header from '../Header';
+import TasksList from '../TasksList';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Container>
         <GlobalStyles />
         <Header />
+        <TasksList />
       </Container>
     </ThemeProvider>
   );
