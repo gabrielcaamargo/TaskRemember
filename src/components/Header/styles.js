@@ -60,4 +60,11 @@ export const HeaderWrapper = styled.header`
       border: 2.5px solid ${({ theme }) => theme.colors.blue.lighter};
     }
   }
+
+  @media (max-width: 610px){
+    flex-direction: column;
+    justify-content: center;
+    line-height: 64px;
+    padding: 24px;
+  }
 `;

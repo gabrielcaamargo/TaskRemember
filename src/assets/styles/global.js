@@ -13,6 +13,7 @@ export default createGlobalStyle`
     width: 100%;
     margin: auto;
     background-color: #EEE;
+    padding: 0 15px;
   }
 
   button{
