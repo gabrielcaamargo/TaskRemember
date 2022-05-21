@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const TaskBody = styled.div`
   background-color: #ddd;
   margin-top: 24px;
-  padding: 8px;
+  padding: 16px 8px;
   border-radius: 8px;
   color: #222;
 
