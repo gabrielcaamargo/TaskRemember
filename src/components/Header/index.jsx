@@ -39,8 +39,10 @@ export default function Header() {
         <h2>{getWeekDay}</h2>
       </div>
 
+      <input type="text" placeholder="Your task here" required />
+
       <div>
-        <button type="button">Add task</button>
+        <button type="submit">Add task</button>
       </div>
     </HeaderWrapper>
   );

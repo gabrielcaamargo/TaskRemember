@@ -42,4 +42,22 @@ export const HeaderWrapper = styled.header`
       background-color: ${({ theme }) => theme.colors.blue.dark};
     }
   }
+
+  input{
+    border: 2.5px solid #e9e9e9;
+    outline: none;
+    padding: 6px;
+    font-size: 16px;
+    background-color: #e9e9e9;
+    border-radius: 4px;
+    transition: border-color .2s ease-in;
+
+    ::placeholder{
+
+    }
+
+    :focus{
+      border: 2.5px solid ${({ theme }) => theme.colors.blue.lighter};
+    }
+  }
 `;
